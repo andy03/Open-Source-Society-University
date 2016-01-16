@@ -1,0 +1,17 @@
+0.  an artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust
+1.  Return resource usage statistics for the calling process,  which is the sum of resources used by all threads in the process.
+2.  16
+3.  Because C requires passing structs by reference in functions, because by value, the size would be too big
+4.  Speller.c reads words from the file, character by character, using a for loop to begin reading the first character of 
+    the file, incrementing by one character until it reaches the end of the file. If the character is a letter or apostrophe,
+    it is added to a word. If the word becomes larger than what we have defined as the largest word possible, the word is
+    ignored. If the word has a digit, it is ignored as well.
+    
+    If a word still exists, it is counted, checked for spelling, and printed. The amount of time it takes to complete the
+    checking is logged in ti_check.
+5.  To be able to account for numerical inputs and other punctuation which we have deemed invalid.
+6.  Because word LENGTH and DICTIONARY are # declared as constants (word is an array of LENGTH+1)
+7.  I decided to use the tries, because I believe is the fastest way to do it. In each node I have a boolean to check if the word ends at that char or not, and a children node for each of the chars again.
+8.  Well the difference between the first and the last run was about 0.01s
+9.  Declaring and deleting some variables depending of my need.
+10. Actually I am pretty curious of how your loader is so much "faster" (0.02s);

@@ -1,0 +1,19 @@
+0.  BMP,JPEG, PNG-> 16.777.216 different colors. GIF supports 256 different colors.
+1.  GIF .
+2.  Lossless compression allows the reconstruction of the original from the compressed data. Lossy compression achieves its effect due to the reduction of information, hence preventing a reconstruction of the original data.
+3.  JPEG is an example for a lossy compressed format.
+4.  The reference to the data on the disk are deleted from the file allocation table. 
+5.  Apart from eliminating the reference in the FAT, the actual data on the disk could be overwritten with zeros or random data.
+6.  <stdint.h> is a header file declaring various integer types with certain guaranteed widths. 
+7.  Using these types allows to write implementation- and plattform-independent code.
+8.  BYTE => 8-bit, DWORD => 32-bit, LONG => 32-bit, WORD => 16-bit
+9.  Signature letters BM with hex value (0x42 0x4D)
+10. befSize is the bitmap file size in bytes and biSize is the header size which must be be at least 40 bytes
+11. A negative value for biHeight occurs when pixel data is ordered from the top-down
+12. The biBitCount field specifies the BMP's color depth.
+13. Fopen may return NULL value when file is too large and there is not enough space or user does not authorized to create file
+14. The third argument to fread takes in the size of the bitmapfile header and each bitmap image comes with only one header.
+15. It gets a value of 1
+16. The fseek() function is used to change the file postion of the stream
+17. Used as an argument for fseek(); shows the position of the postion pointer
+18. It is none other than ROB BOWDEN and his CAT
